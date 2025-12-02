@@ -1,6 +1,6 @@
 public class ProblemOne {
 
-    public static void solve() {
+    public static int solve() {
         int sum = 0;
 
         for (int i = 0; i < 1000; i++) {
@@ -9,7 +9,7 @@ public class ProblemOne {
             }
         }
 
-        System.out.println("Summe: " + sum);
+        return sum;
     }
 
 }

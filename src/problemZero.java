@@ -2,7 +2,7 @@ import java.math.BigInteger;
 
 public class problemZero{
     
-    public static void solve() {
+    public static long solve() {
         long n = 936000;
         long square = 0;
         long oddSquareSum = 0;
@@ -25,6 +25,8 @@ public class problemZero{
 
         BigInteger res = a.multiply(b).multiply(c).divide(three);
         System.out.println(res); // Ausgabe: 273413215688000000
+
+        return oddSquareSum;
     }
 
     
