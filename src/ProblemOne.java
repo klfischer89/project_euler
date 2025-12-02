@@ -1,6 +1,6 @@
-public class Multiples3or5 {
+public class ProblemOne {
 
-    public static void main(String[] args) {
+    public static void solve() {
         int sum = 0;
 
         for (int i = 0; i < 1000; i++) {
