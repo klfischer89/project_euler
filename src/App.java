@@ -4,6 +4,7 @@ public class App {
         
         // problemZero.solve();
         // ProblemOne.solve();
-        System.out.println("Summe: " + ProblemTwo.solve());
+        // System.out.println("Summe: " + ProblemTwo.solve());
+        System.out.println(ProblemThree.solve());
     }
 }

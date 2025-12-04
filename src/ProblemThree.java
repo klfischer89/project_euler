@@ -3,7 +3,7 @@ import java.util.List;
 
 public class ProblemThree {
 
-    public static void main(String[] args) {
+    public static long solve() {
         long n = 600851475143L;
         long k = n;
         List<Long> primeFactorList = new ArrayList<>();
@@ -15,7 +15,8 @@ public class ProblemThree {
                 System.out.println("FAKTOR: " + i);
             }
         }
-        System.out.println(primeFactorList.getLast());
+
+        return primeFactorList.getLast();
         
     }
 
