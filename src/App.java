@@ -5,6 +5,8 @@ public class App {
         // problemZero.solve();
         // ProblemOne.solve();
         // System.out.println("Summe: " + ProblemTwo.solve());
-        System.out.println(ProblemThree.solve());
+        // System.out.println(ProblemThree.solve());
+        ProblemFour.solve();
+        return;
     }
 }
